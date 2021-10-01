@@ -9,3 +9,9 @@ fn()
 \description{
 Stuff here
 }
+\details{
+\subsection{Failing section}{\if{html}{\out{<div class="sourceCode r">}}\preformatted{1 + 1
+}\if{html}{\out{</div>}}\preformatted{## [1] 2
+}
+}
+}
