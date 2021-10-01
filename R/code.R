@@ -1,8 +1,9 @@
 #' Stuff
 #'
 #' @description
-#' `r stop("oh no")`
+#' Stuff here
 #'
+#' @export
 fn <- function() {
   NULL
 }
