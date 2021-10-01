@@ -15,3 +15,5 @@ Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
 Imports: 
     rlang
+URL: https://github.com/DavisVaughan/testfailingroxygen2
+BugReports: https://github.com/DavisVaughan/testfailingroxygen2/issues
