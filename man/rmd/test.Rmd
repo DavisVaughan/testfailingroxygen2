@@ -7,9 +7,16 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+## This should run
+
+```{r}
+fn(1)
+```
+
+
 ## Failing section
 
 ```{r}
-stop("oh no")
+#stop("oh no")
 ```
 

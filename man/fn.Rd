@@ -4,14 +4,18 @@
 \alias{fn}
 \title{Stuff}
 \usage{
-fn()
+fn(x)
 }
 \description{
 Stuff here
 }
 \details{
-\subsection{Failing section}{\if{html}{\out{<div class="sourceCode r">}}\preformatted{1 + 1
-}\if{html}{\out{</div>}}\preformatted{## [1] 2
+\subsection{This should run}{\if{html}{\out{<div class="sourceCode r">}}\preformatted{fn(1)
+}\if{html}{\out{</div>}}\preformatted{## [1] 1
 }
+}
+
+\subsection{Failing section}{\if{html}{\out{<div class="sourceCode r">}}\preformatted{#stop("oh no")
+}\if{html}{\out{</div>}}
 }
 }
